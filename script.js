@@ -130,7 +130,7 @@ class Display extends React.Component {
 			React.createElement('div', {className: 'stopwatch'}, this.props.time)
 		)
 	}
-}
+};
 
 class Results extends React.Component {
 	constructor(props) {
@@ -149,7 +149,7 @@ class Results extends React.Component {
 			React.createElement('ul', {className: 'results'}, results)
 		)
 	}
-}
+};
 
 let stopwatch = React.createElement(Stopwatch);
 ReactDOM.render(stopwatch, document.getElementById('stopwatch'));
