@@ -144,7 +144,7 @@ class Results extends React.Component {
 	render() {
 		let results = this.props.history.map( ele  => { 
 					      return React.createElement('li', {key: ele.id}, ele.record)
-					  })
+					  });
 		return (
 			React.createElement('ul', {className: 'results'}, results)
 		)
