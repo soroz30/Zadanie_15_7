@@ -1,0 +1,27 @@
+body {
+	background: #607D8B;
+	color: #BBBBBB;
+	margin: 200px;
+	text-align: center;
+}
+
+.button {
+	color: inherit;
+	font-size: 36px;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+.stopwatch {
+	font-size: 72px;
+	margin: 50px;
+}
+
+.results {
+	list-style: none;
+	padding: 0;
+}
+
+.results li {
+	font-size: 24px;
+}
